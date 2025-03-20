@@ -6,8 +6,8 @@
 
 /* Efeito Parallax */
 .parallax {
-    background-image: url('#');
-    height: 250px;
+    background-image: url('gif/coding1.gif');
+    height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 100px 0; /* Ajuste o padding para deixar o conteúdo centralizado */
 }
 

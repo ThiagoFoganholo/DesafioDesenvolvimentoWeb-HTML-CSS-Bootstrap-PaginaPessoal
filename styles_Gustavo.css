@@ -6,8 +6,8 @@
 
 /* Efeito Parallax */
 .parallax {
-    background-image: url('#');
-    height: 250px;
+    background-image: url('gif/coding4.gif');
+    height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
