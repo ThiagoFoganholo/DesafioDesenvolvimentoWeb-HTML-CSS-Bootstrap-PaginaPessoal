@@ -3,6 +3,13 @@
     padding: 0; /* Remove todos os preenchimentos internos padrão dos elementos*/
     box-sizing: border-box;
 }
+
+/* Alterando o fundo para um tom escuro agradável */
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
 /* Efeito Parallax */
 .parallax {
     background-image: url('gif/coding4.gif');
@@ -19,12 +26,6 @@
     padding: 100px 0; /* Ajuste o padding para deixar o conteúdo centralizado */
 }
 
-/* Alterando o fundo para um tom escuro agradável */
-body {
-    background-color: #121212;
-    color: #ffffff;
-    }
-
 section {
     width: 100%;
     height: 500px; /* Mantendo altura padrão */
@@ -38,6 +39,13 @@ section {
     background-attachment: fixed; /*Ativa o efeito da paralax*/
 }
 
+/* Estilizando o texto Sobre Mim */
+.suaHistoria {
+    color: #f8f9fa; /* Cor clara para destacar no fundo escuro */
+    font-size: 18px; /* Aumenta um pouco o tamanho da fonte */
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
 /* Estilizando as Barras de Progresso */
 .progress-bar {
     background-color: #ff0000bd;
@@ -46,13 +54,6 @@ section {
     border-radius: 5px;
 }
 
-
-/* Estilizando o texto Sobre Mim */
-.suaHistoria {
-    color: #f8f9fa; /* Cor clara para destacar no fundo escuro */
-    font-size: 18px; /* Aumenta um pouco o tamanho da fonte */
-    line-height: 1.6; /* Melhora a legibilidade */
-}
 
 /*Altera o tamanho das imagens*/
 .card-img-top {
@@ -101,6 +102,13 @@ section {
     background-attachment: fixed; /*Ativa o efeito da paralax*/
 }
 
+/* Estilizando o texto Sobre Mim */
+.suaHistoria {
+    color: #f8f9fa; /* Cor clara para destacar no fundo escuro */
+    font-size: 18px; /* Aumenta um pouco o tamanho da fonte */
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
 /* Estilizando as Barras de Progresso */
 .progress-bar {
     background-color: #ff0000bd;
@@ -109,12 +117,6 @@ section {
     border-radius: 5px;
 }
 
-/* Estilizando o texto Sobre Mim */
-.suaHistoria {
-    color: #f8f9fa; /* Cor clara para destacar no fundo escuro */
-    font-size: 18px; /* Aumenta um pouco o tamanho da fonte */
-    line-height: 1.6; /* Melhora a legibilidade */
-}
 
 /*Altera o tamanho das imagens*/
 .card-img-top {
@@ -148,9 +150,9 @@ section {
 
 /*altera a cor do titulo da Minhas habilidades */
 .container h2 {
-    color: rgb(255, 255, 255); /* Altere a cor do titulo para uma cor desejada */
-    font-weight: bold; /* Deixa o texto em negrito */
+    color: rgb(255, 255, 255);  /* Altere a cor do titulo para uma cor desejada */
 }
+
 
 /*Inseri uma imagem no funda da seção */
 section:nth-of-type(1) {
