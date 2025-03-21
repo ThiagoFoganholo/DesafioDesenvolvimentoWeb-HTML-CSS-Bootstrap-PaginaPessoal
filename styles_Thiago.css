@@ -67,24 +67,34 @@ section {
     color: #ecf0f1; /* Cor clara para o texto */
 }
 
+/*altera a cor de fundo dos cards*/
 .card {
     background-color: #34495e; /* Cor mais escura para as cards */
     color: #ecf0f1; /* Cor clara para o texto dentro da card */
 }
 
+/*altera a cor do titulo dos projetos nos cards */
 .card-body {
     color: #ecf0f1; /* Cor do texto dentro da card */
 }
 
+/*altera a cor do botoes  */
 .btn-primary {
     background-color: #3498db; /* Cor do botão */
     border-color: #2980b9; /* Cor da borda do botão */
 }
 
+/*altera a cor do titulo da Minhas habilidades */
+.container h2 {
+    color: rgb(255, 255, 255);  /* Altere a cor do titulo para uma cor desejada */
+}
+
+/*Inseri uma imagem no funda da seção */
 section:nth-of-type(1) {
     background-image: url('gif/BackgroundSun.gif');
 }
 
+/*Inseri uma imagem no funda da seção */
 section:nth-of-type(2) {
     background-image: url('gif/LookInHorazon.gif');
 }
